@@ -6,7 +6,7 @@ setup(
     name='versionfromgit',
     version=__version__,
     packages=['versionfromgit'],
-    description='Utility to version non-distutils python projects using git tags.',
+    description="Utility to version python projects that dont't use distutils, using git tags.",
     author='Dries Desmet',
     author_email='dries@urga.be',
     include_package_data=True,
